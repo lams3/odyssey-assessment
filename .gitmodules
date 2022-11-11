@@ -1,0 +1,6 @@
+[submodule "substrate-node"]
+	path = substrate-node
+	url = https://github.com/lams3/substrate-node
+[submodule "substrate-front-end"]
+	path = substrate-front-end
+	url = https://github.com/lams3/substrate-front-end
