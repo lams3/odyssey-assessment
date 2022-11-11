@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  substrate-node:
+    build: ./substrate-node
+    ports:
+      - 9944:9944
+    expose:
+      - 9944
+  web-frontend:
+    build: ./substrate-front-end
+    ports:
+      - 8000:8000
